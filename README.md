@@ -1,1 +1,8 @@
-# Markov_Model
+# Markov Model
+
+We all are aware and its no secret that markets frequently experience regime changes. Markets fluctuate between periods of growth, with low volatility, and periods of panic, with negative returns and extreme volatility. Well these regime changes are normally triggered by economic events (e.g. subprime crisis, debt crisis) or recently public health events (e.g. Covid-19 crisis) and pose a major systemic risk to investment portfolios. 
+
+Therefore, knowing how to identify them makes it possible to protect portfolios against extreme risks and even to take advantage of such events.
+
+Markov chains are a classical framework for modeling state and time discrete stochastic systems. It is a sequence of experiments that consists of a finite number of states with some known probabilities (P). P is stochastic process which depends on immediate outcome and not on history. It may be regarded as a series of transitions between different states, such that the probabilities associated with each transition depends only on the immediate proceeding state and not on how the process arrived at that state. The probabilities associated with the transitions between the states are constant with time.
+It is a popular nonlinear time-series models which involves multiple equations and can characterize the time-series behaviors in different regimes. By permitting switching between these equations, the model is able to capture more complex dynamic patterns. Markov switching model is suitable for describing correlated data that exhibit distinct dynamic patterns during different time periods.
