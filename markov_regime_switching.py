@@ -1,10 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Markov regime switching.ipynb
-"""
 
-# Commented out IPython magic to ensure Python compatibility.
-!pip install hmmlearn
-!pip install pyforest
 from pyforest import *
 import datetime, pickle, copy
 pd.set_option('display.max_rows', 500)
@@ -14,14 +9,12 @@ import matplotlib.pyplot as plt
 # %matplotlib inline  
 from pandas.plotting import register_matplotlib_converters
 register_matplotlib_converters()
-!pip install quandl
 import quandl
 plt.style.use('ggplot')
 from statistics import variance 
 from random import randint
 import scipy as sp
 from scipy import stats
-!pip install ffn
 import ffn
 from matplotlib import cm
 import numpy as np
@@ -247,7 +240,7 @@ plt.tight_layout()
 
 print(res_2.expected_durations)
 
-!pip install probscale
+
 import probscale
 
 #qqpolot vs. normal distribution
